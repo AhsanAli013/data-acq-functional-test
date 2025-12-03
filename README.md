@@ -3,6 +3,7 @@
 This repository contains functional test scripts designed to validate the reliability, accuracy, and end-to-end behavior of a data acquisition workflow.
 It focuses on verifying data capture, transformation, storage, and API layer interactions to ensure the system operates according to expected specifications.
 
+
 🚀 Features
 
 ✔️ Functional test cases for data acquisition pipeline
@@ -16,6 +17,7 @@ It focuses on verifying data capture, transformation, storage, and API layer int
 ✔️ Clear logging & reporting
 
 ✔️ Modular structure for future expansion
+
 
 data-acq-functional-test/
 
@@ -34,6 +36,7 @@ data-acq-functional-test/
 └── README.md                # Project documentation
 
 
+
 🛠️ Technology Stack
 
 Python 3.x
@@ -46,6 +49,7 @@ JSON/YAML configuration files
 
 Logging module for reporting
 
+
 📥 Installation
 
 Clone the repository:
@@ -57,6 +61,7 @@ cd data-acq-functional-test
 Install dependencies:
 
 pip install -r requirements.txt
+
 
 ▶️ How to Run Tests
 
@@ -73,6 +78,8 @@ pytest tests/test_data_flow.py
 Generate a test report (if configured):
 
 pytest --html=report.html --self-contained-html
+
+
 
 ⚙️ Configuration
 
@@ -91,6 +98,8 @@ Example:
 environment: "staging"
 api_base_url: "https://api.example.com"
 auth_token: "your_token_here"
+
+
 
 📌 Test Coverage Areas
 
