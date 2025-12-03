@@ -20,11 +20,17 @@ It focuses on verifying data capture, transformation, storage, and API layer int
 data-acq-functional-test/
 │
 ├── src/                     # Core scripts and helper modules
+
 ├── tests/                   # Functional test cases
+
 ├── config/                  # Test configuration files (e.g., URLs, credentials)
+
 ├── logs/                    # Execution logs
+
 ├── requirements.txt         # Python dependencies
+
 └── README.md                # Project documentation
+
 
 🛠️ Technology Stack
 
